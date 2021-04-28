@@ -27,9 +27,6 @@ navbar:
  - name: "About"
    link: "about"
 
-plugins:
-  - jekyll-org
-
 collections:
   cool_posts:
     output: true

@@ -1,6 +1,3 @@
----
----
-
 #+TITLE: TESTE LMFAO
 #+SUBTITLE: Lolasdqowkdpqwok
 #+LAYOUT: post
