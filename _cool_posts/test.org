@@ -1,8 +1,12 @@
-#+TITLE: teste org mode jekyll
-#+LAYOUT: post
-#+SUBTITLE: testing jekyll org-mode
-#+DATE: 2021-04-23
-#+TAGS: jekyll org-mode
+#+BEGIN_EXPORT html
+---
+layout: post
+title: teste org mode + jekyll
+subtitle: testing xaokpdokqw
+date: 2021-04-23
+tags: [org, jekyll]
+---
+#+END_EXPORT
 
 blog test about jekyll + org-mode combo
 
