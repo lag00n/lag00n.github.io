@@ -1,12 +1,11 @@
-#+BEGIN_EXPORT html
 ---
-layout: post
-title: teste org mode + jekyll
-subtitle: testing xaokpdokqw
-date: 2021-04-23
-tags: [org, jekyll]
 ---
-#+END_EXPORT
+
+#+TITLE: TESTE LMFAO
+#+SUBTITLE: Lolasdqowkdpqwok
+#+LAYOUT: post
+#+TAGS: lol org-mode
+#+DATE: 2021-04-12
 
 blog test about jekyll + org-mode combo
 
