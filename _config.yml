@@ -28,7 +28,7 @@ navbar:
    link: "about"
 
 plugins:
- - jekyll-org
+  - jekyll-org
 
 collections:
   cool_posts:
