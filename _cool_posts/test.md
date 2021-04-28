@@ -1,5 +1,3 @@
-- [org table demo](#org4387f45)
-
 ---
 title: teste
 subtitle: teste
