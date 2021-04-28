@@ -1,8 +1,12 @@
-#+TITLE: TESTE LMFAO
-#+SUBTITLE: Lolasdqowkdpqwok
-#+LAYOUT: post
-#+TAGS: lol org-mode
-#+DATE: 2021-04-12
+#+BEGIN_EXPORT html
+---
+title: teste
+subtitle: teste
+date: 2021-04-23
+layout: post
+tags: [lol, lulz]
+---
+#+END_EXPORT
 
 blog test about jekyll + org-mode combo
 
