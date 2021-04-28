@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% for cool_posts in site.cool_posts %}
+
+<ul>
+  <li>
+    <a href="{{site.baseurl}}{{ cool_posts.url }}"> {{ cool_posts.date | date: "%d %B %Y" }} - {{ cool_posts.title }} </a>
+  </li>
+</ul>
+
+{% endfor %}

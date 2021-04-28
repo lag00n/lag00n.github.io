@@ -1,0 +1,19 @@
+#+TITLE: teste org mode jekyll
+#+LAYOUT: post
+#+SUBTITLE: testing jekyll org-mode
+#+DATE: 2021-04-23
+#+TAGS: jekyll org-mode
+
+blog test about jekyll + org-mode combo
+
+** org table demo
+
+sla oq sla oq
+
+##+begin_src  sh
+
+lolas 
+# luls
+echo 'sla o q'
+
+##+end_src
