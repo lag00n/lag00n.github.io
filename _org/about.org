@@ -1,3 +1,5 @@
+#+OPTIONS: toc:nil
+
 #+BEGIN_EXPORT html
 ---
 title: About Me

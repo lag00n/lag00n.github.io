@@ -1,7 +1,3 @@
-
-# Table of Contents
-
-
 ---
 title: About Me
 layout: default
