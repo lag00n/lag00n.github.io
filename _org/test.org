@@ -3,10 +3,11 @@
 title: teste
 subtitle: teste
 date: 2021-04-23
+tags: [lol, asld]
 layout: post
-tags: [lol, lulz]
 ---
-#+END_EXPORT
+#+END_EXPORT 
+#+OPTIONS: toc:nil
 
 * org table demo
 
@@ -24,7 +25,7 @@ echo 'sla o q'
 blab bla bla i
 
 #+begin_src cpp
-int main() {
+int main(void) {
     printf "penis";
     return 0
 } 
