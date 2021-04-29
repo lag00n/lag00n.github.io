@@ -3,7 +3,7 @@ title: About Me
 layout: default
 ---
 
-<img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture">
+<img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
 I'm lag00n, a linux user, seeking for knowledge and new things about this awesome world.
 
