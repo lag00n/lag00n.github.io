@@ -1,12 +1,8 @@
-#+BEGIN_EXPORT html
----
-title: teste
-subtitle: teste
-date: 2021-04-23
-layout: post
-tags: [lol, lulz]
----
-#+END_EXPORT
+#+TITLE: Jekyll and org, together
+#+SUBTITLE: testando
+#+LAYOUT: post
+#+TAGS: teste, slaoq
+#+DATE: 2021-04-23
 
 * org table demo
 
