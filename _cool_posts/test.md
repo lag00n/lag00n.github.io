@@ -1,4 +1,3 @@
-#+BEGIN_EXPORT html
 ---
 title: teste
 subtitle: teste
@@ -6,30 +5,27 @@ date: 2021-04-23
 tags: [lol, asld]
 layout: post
 ---
-#+END_EXPORT 
-#+OPTIONS: toc:nil
 
-* org table demo
+
+# org table demo
 
 sla oq sla oq
 
-#+begin_src  sh
+{% highlight sh %}
 
 lolas 
 # luls
 echo 'sla o q'
 
-#+end_src
-
+{% endhighlight %}
 
 blab bla bla i
 
-#+begin_src cpp
+{% highlight cpp %}
 int main(void) {
     printf "penis";
     return 0
 } 
-#+end_src
-
+{% endhighlight %}
 
 fopqowdkopqwkd fvskdofa sddelbs
