@@ -29,6 +29,12 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+a::after {
+    color: #FF0F00;
+    content: ' °';
+}
+
 hr {
     margin: 5px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
