@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Basic shell guide
+title: Basic shell guide, for linux newbies
 subtitle: Just a little help, for you, newbie to linux, get closer to your best friend, the cli.
 date: 2021-04-23
 tags: [shell, guide]
@@ -9,12 +9,12 @@ tags: [shell, guide]
 
 # Table of Contents
 
-1.  [Basic shell guide, for newbies in linux.](#org1718dbc)
+1.  [Welcome to my attempt into making a good CLI guide&#x2026;](#orgbcf0bed)
 
 
-<a id="org1718dbc"></a>
+<a id="orgbcf0bed"></a>
 
-# Basic shell guide, for newbies in linux.
+# Welcome to my attempt into making a good CLI guide&#x2026;
 
 When I started into the Linux world, especially talking about the command line, I've found pretty hard to find a good guide to all the basics that I needed to know. So, I'm here to do ( or at least try to) make a simple guide with some stuff about the command line, giving you a good startpoint into it.
 
@@ -22,7 +22,7 @@ When I started into the Linux world, especially talking about the command line, 
 ## First of all, some terminology that you'll need to know
 
 -   ***Terminal =*** A terminal is simply an interface to interact with your computer. Basically, it's nothing but an empty program, that need a shell to work.
--   ***Shell =*** A shell is a interactive text interface for the user, and the **Terminal** is the tool most often used to run stuff using the shell. The combo between shell and terminal provides you, the fellow user, the powerful **"CLI**" or *command-line-environment*. There are many options of shells, but most linux distribuitons come with **Gnu Bash**, or **B** ourne **A** gain **SH** ell, the most popular one in use at the moment. If you are using other shell (which can be check with the command `echo $SHELL`) don't worry, everything on this guide will still work.
+-   ***Shell =*** A shell is a interactive text interface for the user, and the **Terminal** is the tool most often used to run stuff using the shell. The combo between shell and terminal provides you, the fellow user, the powerful **"CLI**" or *command-line-environment*. There are many options of shells, but most linux distribuitons come with **Gnu Bash**, or **B**ourne **A**gain **SH**ell, the most popular one in use at the moment. If you are using other shell (which can be check with the command `echo $SHELL`) don't worry, everything on this guide will still work.
 
 Here is what you'll see when you fire up a terminal and consequently, a shell:
 
