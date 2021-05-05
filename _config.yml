@@ -30,4 +30,4 @@ navbar:
 collections:
   cool_posts:
     output: true
-    permalink: /:title
+    permalink: /:title/
