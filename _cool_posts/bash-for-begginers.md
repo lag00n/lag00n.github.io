@@ -9,10 +9,10 @@ tags: [shell, guide]
 
 # Table of Contents
 
-1.  [Welcome to my attempt into making a good CLI guide&#x2026;](#org4992add)
+1.  [Welcome to my attempt into making a good CLI guide&#x2026;](#org3a90547)
 
 
-<a id="org4992add"></a>
+<a id="org3a90547"></a>
 
 # Welcome to my attempt into making a good CLI guide&#x2026;
 
@@ -58,7 +58,7 @@ Basically, your shell allows you to run commands on terminal, and even arrange t
 
 ### Shell configuration
 
-Bash configuration can be easily done by just modifying a file called `.bashrc`, that can be found on your `$HOME` directory (<a id="explanation">which is `/home/{your-username}`, but you can check that using `echo $HOME` </a>). In this file, you can change a lot of stuff on your shell, from changing his appearance to creating aliases and changing environment variables.
+Bash configuration can be easily done by just modifying a file called `.bashrc`, that can be found on your `$HOME` directory (<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>). In this file, you can change a lot of stuff on your shell, from changing his appearance to creating aliases and changing environment variables.
 On zsh, the configuration file can be found on the same place than `.bashrc`, while on fish is located at `$HOME/.config/fish/config.fish`
 
 > Most shells has a system-wide config, located at `/etc`, but It's completely **not recommended** to change that file instead your local one.
@@ -72,10 +72,10 @@ All shells has **built-in autocomplete**, so, instead typing a long folder/progr
 ### Some global simple aliases
 
 `..` is an alias for the parent folder of the directory you're currently working on, while `.` is a alias for the folder that you're currently occuppying. You can use these aliases to save some time typying the entire path to a folder.
-`~` is a alias to your $HOME directory<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>, so, instead of typing `/home/{your-username}/path/to/a/file`, you can simply type `~/path/to/a/file`
+`~` is a alias to your $HOME directory<sup><a id="fnr.2.100" class="footref" href="#fn.2">2</a></sup>, so, instead of typing `/home/{your-username}/path/to/a/file`, you can simply type `~/path/to/a/file`
 
 # Footnotes
 
 <sup><a id="fn.1" href="#fnr.1">1</a></sup> Always rembember: **RTFM =** Read The Fuc\*\*\*\* Manual!
 
-<sup><a id="fn.2" href="#fnr.2">2</a></sup> As explained [here](https://lag00n.github.io/bash-for-begginers#explanation).
+<sup><a id="fn.2" href="#fnr.2">2</a></sup> which is `/home/{your-username}`, but you can check that using `echo $HOME`
