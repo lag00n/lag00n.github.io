@@ -8,6 +8,8 @@ tags: [shell, guide]
 ---
 #+END_EXPORT
 #+TOC: headlines 1
+#+OPTIONS: toc:nil
+
 * Welcome to my attempt into making a good CLI guide...
 When I started into the Linux world, especially talking about the command line, I've found pretty hard to find a good guide to all the basics that I needed to know. So, I'm here to do ( or at least try to) make a simple guide with some stuff about the command line, giving you a good startpoint into it.
 

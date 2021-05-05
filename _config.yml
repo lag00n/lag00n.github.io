@@ -13,7 +13,7 @@ profile-picture: assets/profile2.png
 favicon_location: assets/icon.png
 
 
-permalink: /:title/
+permalink: /:title
 sass:
     style: compressed
     sass_dir: css

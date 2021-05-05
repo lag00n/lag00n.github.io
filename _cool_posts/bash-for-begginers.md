@@ -1,13 +1,3 @@
-
-# Table of Contents
-
-1.  [Welcome to my attempt into making a good CLI guide&#x2026;](#org080ef54)
-    1.  [First of all, some terminology that you'll need to know](#org36a39d9)
-    2.  [Now, without futher ado, let's get closer to your shell](#orgd8bec35)
-        1.  [How do a shell work?](#org7313eab)
-        2.  [Shell configuration](#orgf640722)
-        3.  [Autocomplete](#org2fdd893)
-        4.  [Some global simple aliases](#orgcc6d750)
 ---
 layout: post
 title: Basic shell guide, for linux newbies
@@ -19,17 +9,15 @@ tags: [shell, guide]
 
 # Table of Contents
 
-1.  [Welcome to my attempt into making a good CLI guide&#x2026;](#org080ef54)
+1.  [Welcome to my attempt into making a good CLI guide&#x2026;](#org4992add)
 
 
-<a id="org080ef54"></a>
+<a id="org4992add"></a>
 
 # Welcome to my attempt into making a good CLI guide&#x2026;
 
 When I started into the Linux world, especially talking about the command line, I've found pretty hard to find a good guide to all the basics that I needed to know. So, I'm here to do ( or at least try to) make a simple guide with some stuff about the command line, giving you a good startpoint into it.
 
-
-<a id="org36a39d9"></a>
 
 ## First of all, some terminology that you'll need to know
 
@@ -56,12 +44,8 @@ And finnaly, the **The Most Important Thing That You'll Read On This Guide**<sup
 **Following this simple steps, and principally, effectively learning while you search for solutions, you're going to improve and learn better and faster than any other way, like seeing an 2 hour tutorial on youtube.**
 
 
-<a id="orgd8bec35"></a>
-
 ## Now, without futher ado, let's get closer to your shell
 
-
-<a id="org7313eab"></a>
 
 ### How do a shell work?
 
@@ -72,8 +56,6 @@ Basically, your shell allows you to run commands on terminal, and even arrange t
 {% endhighlight %}
 
 
-<a id="orgf640722"></a>
-
 ### Shell configuration
 
 Bash configuration can be easily done by just modifying a file called `.bashrc`, that can be found on your `$HOME` directory (<a id="explanation">which is `/home/{your-username}`, but you can check that using `echo $HOME` </a>). In this file, you can change a lot of stuff on your shell, from changing his appearance to creating aliases and changing environment variables.
@@ -82,14 +64,10 @@ On zsh, the configuration file can be found on the same place than `.bashrc`, wh
 > Most shells has a system-wide config, located at `/etc`, but It's completely **not recommended** to change that file instead your local one.
 
 
-<a id="org2fdd893"></a>
-
 ### Autocomplete
 
 All shells has **built-in autocomplete**, so, instead typing a long folder/program name, you can just type a few words and press `tab` key, then you shell is going to auto-complete the rest of the name for you. If there is more than one possibility, your shell is going to show you all of them, so you can choose which one do you want.
 
-
-<a id="orgcc6d750"></a>
 
 ### Some global simple aliases
 
