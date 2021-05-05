@@ -32,6 +32,34 @@ And finnaly, the *The Most Important Thing That You'll Read On This Guide*[fn:1]
 + Searching through amazing distro wiki's, like [[https://wiki.gentoo.org][Gentoo Wiki]] or [[https://wiki.archlinux.org][Arch Wiki]].
 + Searching or making posts on [[https://reddit.com][Reddit]] communities.
 
-*Following this simple steps, you're going to improve and learn better and faster than any other way, like seeing an 2 hour tutorial on youtube.*
+*Following this simple steps, and principally, effectively learning while you search for solutions, you're going to improve and learn better and faster than any other way, like seeing an 2 hour tutorial on youtube.*
+
+** Now, without futher ado, let's get closer to your shell
+   
+*** How do a shell work?
+
+    Basically, your shell allows you to run commands on terminal, and even arrange them using operators for scripting purposes. However, your shell has access only to binaries that are located in your ~$PATH~. To discover which folders are part of your ~$PATH~ you can run the following command:
+    #+begin_src sh
+[$] echo $PATH
+    #+end_src
+
+*** Shell configuration
+
+    Bash configuration can be easily done by just modifying a file called ~.bashrc~, that can be found on your ~$HOME~ directory (@@html:<a id="explanation">@@which is ~/home/{your-username}~, but you can check that using ~echo $HOME~ @@html:</a>@@). In this file, you can change a lot of stuff on your shell, from changing his appearance to creating aliases and changing environment variables.
+    On zsh, the configuration file can be found on the same place than ~.bashrc~, while on fish is located at ~$HOME/.config/fish/config.fish~
+    #+begin_quote
+Most shells has a system-wide config, located at ~/etc~, but It's completely *not recommended* to change that file instead your local one.
+    #+end_quote
+
+*** Autocomplete
+
+    All shells has *built-in autocomplete*, so, instead typing a long folder/program name, you can just type a few words and press ~tab~ key, then you shell is going to auto-complete the rest of the name for you. If there is more than one possibility, your shell is going to show you all of them, so you can choose which one do you want.
+
+*** Some global simple aliases
+
+    ~..~ is an alias for the parent folder of the directory you're currently working on, while ~.~ is a alias for the folder that you're currently occuppying. You can use these aliases to save some time typying the entire path to a folder.
+    ~~~ is a alias to your $HOME directory[fn:2], so, instead of typing ~/home/{your-username}/path/to/a/file~, you can simply type ~~/path/to/a/file~
+
 
 [fn:1] Always rembember: *RTFM =* Read The Fuc**** Manual!
+[fn:2] As explained [[https://lag00n.github.io/bash-for-begginers#explanation][here]].
