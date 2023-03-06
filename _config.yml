@@ -1,0 +1,33 @@
+title: lxg00n's blog
+author: lxg00n
+subtitle: Just a blog where i talk about linux, games, anime and stuff.
+
+url: "https://lag00n.github.io"
+# baseurl: ""
+
+footer_only_homepage: true
+footer_url: "https://github.com/lag00n"
+footer_text: "lxg00n&copy;"
+
+profile-picture: assets/profile2.png
+favicon_location: assets/icon.png
+
+
+permalink: /:title
+sass:
+    style: compressed
+    sass_dir: css
+
+markdown: kramdown
+highlight: rouge
+
+navbar:
+ - name: "Posts"
+   link: "posts"
+ - name: "About"
+   link: "about"
+
+collections:
+  cool_posts:
+    output: true
+    permalink: /:title/

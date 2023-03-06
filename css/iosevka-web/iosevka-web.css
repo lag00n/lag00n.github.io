@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/iosevka-curly-extralight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 200;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/iosevka-curly-extralightitalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/iosevka-curly-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/iosevka-curly-lightitalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/iosevka-curly-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/iosevka-curly-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/iosevka-curly-medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/iosevka-curly-mediumitalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/iosevka-curly-semibold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/iosevka-curly-semibolditalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  src: url("woff2/iosevka-curly-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Iosevka Curly Web";
+  font-display: swap;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: italic;
+  src: url("woff2/iosevka-curly-bolditalic.woff2") format("woff2");
+}

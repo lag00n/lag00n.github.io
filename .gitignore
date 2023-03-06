@@ -1,0 +1,10 @@
+.jekyll-cache
+Gemfile
+Gemfile.lock
+Gemfile2
+Gemfile2.lock
+_site/
+_posts/
+_org/
+LICENSE
+index2.html
